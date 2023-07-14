@@ -9,6 +9,7 @@ resource "aws_instance" "web" {
   associate_public_ip_address = true
   count = 2
 
+
   tags = {
     Name = "WebServer"
   }
